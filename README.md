@@ -32,8 +32,8 @@ The dataset contain one message per line. Each line is composed by two columns: 
 
 12. **CountVectorizer:** CountVectorizer is a class from the scikit-learn library used to convert a collection of text documents to a matrix of token counts. It's a common step in preparing text data for machine learning.
 
-13. **TfidfVectorizer:** TfidfVectorizer is another class from scikit-learn used to convert a collection of text documents to a matrix of TF-IDF (Term Frequency-Inverse Document Frequency) features. It assigns weights to words based on their importance in a document and the entire corpus.
-
+13. **TfidfVectorizer:** TfidfVectorizer is another class from scikit-learn used to convert a collection of text documents to a matrix of TF-IDF (Term Frequency-Inverse Document Frequency) features.
+    
 14. **GaussianNB, MultinomialNB, BernoulliNB:** These are classes from scikit-learn representing different variants of the Naive Bayes algorithm, a probabilistic classification technique.
 
 15. **accuracy_score:** accuracy_score is a function from scikit-learn used to compute the accuracy of a classification model by comparing predicted labels to true labels.
